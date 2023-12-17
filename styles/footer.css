@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background: center/cover no-repeat url(../images/togg.jpg);
+    bac
+}
+header{
+    flex: 1 1 10%;
+    max-height: 150px;
+}
+main{
+    flex: 1 1 60%;
+    min-height: 500px;
+}
+footer{
+    flex: 1 1 30%;
+    max-height: 450px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: rgba(0, 0, 0,0.8);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.alt{
+    flex: 1 1 33%;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.alt > img{
+    max-width: 50%;
+}
+.enalt{
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-style: italic;
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (max-width:600px) {
+
+    footer{
+        max-height: 750px;
+    }
+}

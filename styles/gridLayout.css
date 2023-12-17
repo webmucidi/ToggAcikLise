@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 150px 2fr 1fr 180px;
+    gap: 10px;
+    grid-template-areas: 
+    "header header header"
+    "menu main aside"
+    "nav main aside"
+    "footer footer footer";
+}
+
+header{
+    grid-area: header;
+    background: red;
+}
+menu{
+    grid-area: menu;
+    background: rgb(28, 157, 95);
+}
+nav{
+    grid-area: nav;
+    background: rgb(22, 168, 166);
+}
+main{
+    grid-area: main;
+    background: rgb(65, 33, 121);
+}
+aside{
+    grid-area: aside;
+    background: rgb(144, 75, 75);
+}
+footer{
+    grid-area: footer;
+    background: rgb(221, 188, 224);
+}

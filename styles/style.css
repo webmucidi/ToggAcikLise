@@ -1,0 +1,19 @@
+body{
+    background-color: #D6CC99;
+}
+*{
+    margin:10px;
+}
+h1{
+    color: rgb(231, 27, 8);
+}
+h3{
+    font-size: 60px;
+}
+
+#ozel{
+    font-weight: bolder;
+}
+.cift{
+    color: green;
+}
